@@ -1,0 +1,16 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+
+# Machine-specific folders, anywhere in the project
+**/.vscode/
+**/.idea/
+**/.specify/
+**/.github/
