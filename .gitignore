@@ -12,5 +12,4 @@ desktop.ini
 # Machine-specific folders, anywhere in the project
 **/.vscode/
 **/.idea/
-**/.specify/
-**/.github/
+
