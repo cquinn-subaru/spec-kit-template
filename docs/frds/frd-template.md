@@ -2,7 +2,6 @@
 
 **FRD ID**: FRD-001
 **Feature ID**: FEAT-001
-**Project management mapping (optional)**: [Epic / work item link]
 **Owner**: [Accountable feature owner]
 **Status**: [Draft / In review / Ready for specification / In delivery / Accepted / Superseded]
 **Revision**: [Version or commit]
@@ -23,7 +22,7 @@
 > functional capabilities; specs refine them into detailed, independently testable
 > delivery slices. A feature may align to an epic in a project management tool,
 > but that optional mapping does not change document ownership or traceability.
-> Start with the [PRD template](./prd-template.md) for product-level context.
+> Start with the [PRD template](../prd-template.md) for product-level context.
 >
 > Path examples assume this FRD lives at docs/frds/FRD-001.md and the PRD at
 > docs/prd.md in the same project as specs/. Adjust links to the actual layout.
