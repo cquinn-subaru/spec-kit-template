@@ -1,6 +1,6 @@
 # Spec Kit Starter - Readme
 ## Quick Start
-1. Initialize new repo with template (TODO: Actually make repo a template in GH)
+1. Initialize new repo with template
 2. Intialize spec kit using `specify init --here --force --integration copilot`
 3. Establish project constitution (TODO) using guidance
 4. Generate/Fill PRD as `docs/prd.md` using `prd-template.md`, include high level product capabilities, objectives, user personas, etc. 
