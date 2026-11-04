@@ -102,10 +102,13 @@ this product supports business strategy.]
 
 > Keep only questions or assumptions affecting product direction, shared policy,
 > or feature boundaries. Move detailed feature behavior to the relevant spec.
+> Resolve each product-level question here, or record an explicitly accepted
+> assumption, before starting FRD work. Track affected PRD IDs only; do not copy
+> this question list into downstream documents.
 
-| ID | Type | Question / assumption / decision | Owner | Resolve by | Status / resolution / affected IDs |
-|----|------|---------------------------------|-------|------------|------------------------------------|
-| PRD-001-Q-001 | [Question / assumption / decision] | [Description] | [Owner] | [Date] | [Status / links] |
+| ID | Type | Question / assumption / decision | Affected PRD IDs | Owner | Resolve by | Status / resolution |
+|----|------|---------------------------------|------------------|-------|------------|---------------------|
+| PRD-001-Q-001 | [Question / assumption / decision] | [Description] | [Goal / feature / rule / constraint IDs] | [Owner] | [Date] | [Open / resolved; decision or accepted assumption] |
 
 ## 11. Traceability and Change Control
 

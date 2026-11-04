@@ -131,7 +131,9 @@ traceability fields to the spec header:
 
 In the spec, map each relevant requirement, success criterion, or acceptance
 scenario back to its FRD requirement or policy IDs. Update the coverage matrix
-below with the resulting spec-local IDs. These are local documentation
+below with the resulting spec-local IDs. Track any spec-local questions in the
+spec against affected spec-local IDs and resolve them before implementation;
+do not copy FRD questions into the spec. These are local documentation
 conventions; Spec Kit does not automatically create or enforce this hierarchy.
 
 ## 8. Requirements Coverage
@@ -172,19 +174,24 @@ conventions; Spec Kit does not automatically create or enforce this hierarchy.
 
 ## 10. Open Questions, Assumptions, and Decisions
 
+> Track feature-level questions against affected FRD IDs only. Resolve each
+> question, or record an explicitly accepted assumption, before starting
+> feature-spec work. Keep spec-local questions in their spec.
+
 | ID | Type | Question / assumption / decision | Affected IDs | Owner | Resolve by | Status / resolution |
 |----|------|---------------------------------|--------------|-------|------------|---------------------|
-| FRD-001-Q-001 | [Question / assumption / decision] | [Description] | [IDs] | [Owner] | [Date] | [Status] |
+| FRD-001-Q-001 | [Question / assumption / decision] | [Description] | [FRD requirement / rule / constraint / dependency / acceptance IDs] | [Owner] | [Date] | [Open / resolved; decision or accepted assumption] |
 
 ## 11. Readiness and Change Control
 
 ### Ready for Feature Specification
 
 - [ ] Parent PRD revision and linked product goals have been reviewed.
+- [ ] Relevant PRD-level questions were resolved in the PRD before this FRD was started.
 - [ ] Feature scope, ownership, functional requirements, and acceptance outcomes agree.
 - [ ] Applicable shared policies, dependencies, and risks are identified.
 - [ ] Proposed feature slices and boundaries are recorded.
-- [ ] Blocking questions are resolved; non-blocking unknowns have owners and dates.
+- [ ] Feature-level questions are resolved or recorded as explicitly accepted assumptions before feature-spec work begins.
 
 ### Ready for Feature Acceptance
 
